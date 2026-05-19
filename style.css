@@ -1,22 +1,43 @@
-#movie-result {
-  background: rgb(244, 98, 181);
-  border: 5px solid black;
-  font-size: 24px;
-  min-height: 160px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+body{
+font-family:Roboto;
+text-align:center;
 }
 
-#book-result {
-  background: rgb(196, 159, 255);
-  border: 5px solid black;
-  font-size: 24px;
-  min-height: 160px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+/* Standard Animation */
+
+h1{
+
+animation:bounce 2s infinite;
+
 }
 
-hr {
-  height: 5px;
-  background-color: black;
+@keyframes bounce{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+/* Custom animation object */
+
+#box{
+
+width:100px;
+height:100px;
+
+background:red;
+
+position:relative;
+
+margin:auto;
+
 }
